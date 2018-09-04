@@ -7,6 +7,6 @@ function reverse(str) {
 	return revstr;
 }
 
-console.log(reverse('timing'));
+
 
 
