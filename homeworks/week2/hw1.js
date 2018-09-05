@@ -11,7 +11,5 @@ function stars(n) {
 	}
 	return Newimage;
 }
-console.log(stars(7));
-
 
 module.exports = stars;    
