@@ -9,4 +9,3 @@ function calculate(num) {
     return str;
 }
 
-console.log(calculate(640));
