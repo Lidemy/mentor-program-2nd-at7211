@@ -1,3 +1,5 @@
-var x =1;
+function stars(n) {
 
-console.log(x);
+}
+
+module.exports = stars;
