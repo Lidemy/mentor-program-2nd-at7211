@@ -1,10 +1,14 @@
 function alphaSwap(str) {
-    if (str[0] >= 'A' && str[0] <= 'Z') {
-        str = str.replace(str[0], function(s) { return s.toLowerCase(); });
-    } else if (str[0] >= 'a' && str[0] <= 'z') {
-        str = str.replace(str[0], function(a) { return a.toUpperCase(); });
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] >= 'A' && str[i] <= 'Z') {
+            str = str.replace(str[i], function(s) { return s.toLowerCase(); });
+        } else if (str[i] >= 'a' && str[i] <= 'z') {
+            str = str.replace(str[i], function(a) { return a.toUpperCase(); });
+        }
     }
     return str;
 }
 
 module.exports = alphaSwap
+
+console.log(alphaSwap("timing"));

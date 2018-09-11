@@ -1,13 +1,13 @@
 function isPrime(n) {
-    var num = '';
+    var num = 0;
     for (var i = 1; i <= n; i++) {
         if (n % i == 0) {
-            num += i;
+            num += 1;
         }
 
     }
 
-    if (num.length <= 2) {
+    if (num === 2) {
         return true;
     } else {
         return false;
@@ -15,5 +15,5 @@ function isPrime(n) {
 
 }
 
-isPrime(8)
+
 module.exports = isPrime

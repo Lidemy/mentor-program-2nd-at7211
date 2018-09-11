@@ -6,9 +6,9 @@ function isPalindromes(str) {
     }
 
     if (paslindrome === 1) {
-        console.log("false");
+        return false;
     } else {
-        console.log("true")
+        return true;
     }
 
 }
