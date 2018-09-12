@@ -1,9 +1,9 @@
 function alphaSwap(str) {
     for (var i = 0; i < str.length; i++) {
         if (str[i] >= 'A' && str[i] <= 'Z') {
-            str = str.replace(str[i], function(s) { return s.toLowerCase(); });
+            str = str.replace(str[i], str[i].toLowerCase());
         } else if (str[i] >= 'a' && str[i] <= 'z') {
-            str = str.replace(str[i], function(a) { return a.toUpperCase(); });
+            str = str.replace(str[i], str[i].toUpperCase());
         }
     }
     return str;
