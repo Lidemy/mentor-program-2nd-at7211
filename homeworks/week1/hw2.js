@@ -10,3 +10,4 @@ function capitalize(str) {
 
 
 console.log(capitalize("timing"));
+
